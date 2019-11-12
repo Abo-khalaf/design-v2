@@ -135,7 +135,7 @@ main {
 }
 
 .diven {
-    margin-top: 165px;
+    margin-top: 80px;
     border: 1px solid;
     padding-top: 15px;
     padding-bottom: 100px;
@@ -149,4 +149,9 @@ main {
 
 .right-about {
     float: left;
+}
+
+.block h4 {
+    font-size: 1.5em;
+    
 }
