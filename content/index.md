@@ -4,22 +4,27 @@ title: "Min fina titel"
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+Detta innehåll är skrivet i markdown och du hittar innehållet i filen .
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/me.jpg?w=350" class="right" caption="Bild på mig"]
 
 Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 
 Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Mitt namn är Muhamed kheer. Född och uppvuxen i Syrien, i ett område som heter Ariha.
+Jag foodes i 06/1994
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Jag flyttade till Sverige för tre år sedan. I Syrien studerade jag gymnasiet och började med ett program på universitet som kallas Mechanical ingenjör, jag läste 3 år av 5 sen jag flyttade hit på grund av kreget.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+När jag var på komvux fanns en kurs vid webbprogrammering och jag läste denna utbildning, I denna kursen jag fick små kunskapar om HTML , CSS och JS, jag visste hur man kan bli programmerare jag giller att simma, träna på gymmet och jag giller också att träffa nya människor jag höppas att trivs bra med denna utbildning
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
 
-Vi syns och hörs i forum och chatt!
+/Moody
 
-/Mikael
+
+<div class= "diven">
+
+[FIGURE src="image/me-footer.jpeg?w=100" class="right12"]
+<p>Det Muhamed Kheer Abo Khalaf heter jag studerar på Blekinge Tikniska Högskolan i ett prågtam som heter webbprogrammering.</p>
+</div>
