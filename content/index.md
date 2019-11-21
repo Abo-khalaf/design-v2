@@ -4,9 +4,10 @@ title: "Min fina titel"
 Min me-sida i kursen design
 =========================
 
+[FIGURE src="image/me.jpg?w=350" class="right" ]
+
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen .
 
-[FIGURE src="image/me.jpg?w=350" class="right" caption="Bild på mig"]
 
 Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 
