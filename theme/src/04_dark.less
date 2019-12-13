@@ -1,0 +1,46 @@
+@import "kmom04.less";
+@backgrundColor: #333;
+@color: #2ECC40;
+@fontFamilyBody: monospace;
+@fontFamilyHeadings: monospace;
+
+html {
+    background-color: @backgrundColor;
+}
+body {
+    background-color: @backgrundColor;
+    color: @color;
+}
+span .img {
+    width: 0px;
+}
+
+.region-main,
+.inner-wrap-footer {
+    #desinax-vgrid.grid(1000px);
+}
+
+a {
+    color: white;
+}
+
+.inner-wrap-footer,
+.outer-wrap-footer {
+    background-color: @backgrundColor;
+    color: white;
+}
+
+.inner-wrap {
+
+    background-color: @backgrundColor;
+}
+@media screen and (max-width: 880px) {
+    .row {
+        max-width: 100%;
+    }
+    .region-main,
+    .inner-wrap-footer {
+        #desinax-vgrid.grid(100%);
+    }
+
+}
