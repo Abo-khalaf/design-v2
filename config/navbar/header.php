@@ -58,5 +58,10 @@ return [
             "url" => "rapport",
             "title" => "rapport från kursmomenten.",
         ],
+        [
+            "text" => "blogg",
+            "url" => "blogg",
+            "title" => "rapport från kursmomenten.",
+        ],
     ],
 ];
