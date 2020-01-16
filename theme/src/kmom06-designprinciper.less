@@ -1,0 +1,169 @@
+/*!
+ * LESS version of the stylesheet for design kmom06.
+ *
+ */
+@import "kmom06.less";
+
+
+
+.region-main  {
+    background-color: #3d4249;
+    margin-top: 22px;
+}
+.inner-wrap{
+
+}
+.per {
+    width: 300px;
+}
+.princip1,
+.princip3,
+.princip5,
+.princip7 {
+    float: right;
+}
+
+.princip7{
+    height: 400px;
+}
+
+/* Zoom In #1 */
+.princip1,
+.princip2 {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.princip1:hover,
+.princip2:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+/* Flashing */
+.princip3:hover,
+.princip4:hover {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+// Rörelse
+.princip5:hover,
+.princip6:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(4px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-8px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(8px, 0, 0);
+  }
+}
+
+
+.region-main .article .right a img {
+        position: relative;
+        left: -2px
+
+}
+
+.diven {
+    border: 4px solid white;
+    padding: 20px;
+    background-color: #ccc;
+
+}
+
+.region-flash img{
+    width: 100%;
+    max-width: 100%;
+}
+.mainHem{
+    #desinax-vgrid.column(17);
+}
+
+
+.navBarHem{
+    #desinax-vgrid.column(6);
+    float: right;
+    border: 4px solid white;
+    padding: 12px;
+    padding-bottom: 100px;
+    background-color: #ccc;
+    max-width: 100%;
+    color: black;
+}
+
+.diven {
+    #desinax-vgrid.column(23);
+    color: black;
+}
+
+// respovsive
+@media screen and (max-width: 800px) {
+    .mainHem {
+        width: 100%;
+        max-width: 100%;
+    }
+    .diven {
+
+        #desinax-vgrid.column(23);
+    }
+    .navBarHem {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+    .navBarHem p,
+    h4 {
+        padding-left: 30px;
+    }
+}
+
+
+// respovsive
+@media screen and (max-width: 370px) {
+    .diven {
+        max-width: 86%
+    }
+    .navBarHem p,
+    h4 {
+        padding-left: 30px;
+    }
+
+}

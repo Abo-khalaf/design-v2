@@ -1,7 +1,7 @@
 /*!
- * LESS version of the stylesheet for design kmom04.
+ * LESS version of the stylesheet for design kmom05.
  *
- * This stylesheet is for the design course and kmom03. Its intention is to
+ * This stylesheet is for the design course and kmom05. Its intention is to
  * use kmom03.css and lessify the style and use this as a wrapper for the new
  * style.
  */
@@ -5031,7 +5031,6 @@ img {
   }
   main .article .right a img {
     width: 100%;
-    float: left;
   }
 }
 @media screen and (max-width: 650px) {

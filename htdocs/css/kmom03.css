@@ -5270,7 +5270,6 @@ img {
   }
   main .article .right a img {
     width: 100%;
-    float: left;
   }
 }
 @media screen and (max-width: 650px) {

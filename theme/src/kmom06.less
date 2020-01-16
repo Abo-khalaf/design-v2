@@ -1,0 +1,84 @@
+/*!
+ * LESS version of the stylesheet for design kmom06.
+ *
+ */
+@import "kmom05design.less";
+html,
+body,
+.outer-wrap-main,
+.outer-wrap-header,
+.inner-wrap-main,
+.region-flash,
+.outer-wrap-flash .row {
+    background-color: #000000;
+    background-image: url("https://ak5.picdn.net/shutterstock/videos/34901005/thumb/1.jpg");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    color: white;
+    font-size: 1em;
+    font-style: italic;
+
+}
+
+.article {
+    background-color: #3d4249;
+}
+
+.inner-wrap-header .row {
+    background-color: #ccc;
+    color: black;
+}
+
+ .outer-wrap-footer,
+ .inner-wrap-footer {
+    background-color: #ccc;
+    color: black;
+    font-size: 1.1em;
+    font-style: monospace;
+}
+
+
+.region-main .article .right a img {
+    width: 250px;
+        position: relative;
+        left: -2px
+
+}
+
+.right12,
+.right12 a img {
+    border-radius: 20px;
+}
+
+.has-sidebar a:hover {
+    background-color: #052534;
+    color: #ccc;
+}
+
+.has-sidebar a,
+.toc {
+    background: #cccccc;
+    color: #1a1a1a;
+
+}
+
+.breadcrumb-list a{
+    font-size: 2em;
+    color: #1a1a1a;
+}
+
+.next {
+    float: inline-end
+}
+@media screen and (max-width: 400px) {
+    body,
+    main,
+    .region-main .article .right a img{
+        width: 400px;
+        max-width: 100%;
+    }
+
+    .footer-column {
+        width: 100%;
+        max-width: 100%;
+    }
+}
