@@ -18,7 +18,7 @@ För att klara av uppgiften så hade vi stor användning av Firefox DevTools, Go
 ##Resultat##
 ###Trygg-hansa###
 ####Skärmbild på Trygg-Hansa hemsida####
-[FIGURE src=image/trygg-hansa.jpg class="center report" caption="Trygg-Hansa home page."]
+[FIGURE src=image/trygg.jpeg class="center report"  caption="Trygg-Hansa home page."]
 
 ####Resultatet dokumenterat i en tabell####
 
@@ -75,8 +75,8 @@ precis 6.11 MB. Laddningstiden för denna sida för 6.61 sekunder.
 
 
 ###IF FÖRSÄKNING###
-####Skärmbild på Trygg-Hansa hemsida####
-[FIGURE src=image/if.jpg class="center report" caption="If home page."]
+####Skärmbild på if hemsida####
+[FIGURE src=image/if.jpg class="center report"  caption="if home page."]
 ####Resultatet dokumenterat i en tabell####
 
 <table>
@@ -136,7 +136,7 @@ den tredje sidan man kan färbettra pointer om man ta bort resurser som blockera
 
 ###Folksam###
 ####Skärmbild på Folksam hemsida####
-[FIGURE src=image/folksam.jpg class="center report" caption="If home page."]
+[FIGURE src=image/folksam.jpeg class="center report"  caption="floksam home page."]
 ####Resultatet dokumenterat i en tabell####
 <br>
 <table>
